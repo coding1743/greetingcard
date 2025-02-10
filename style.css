@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: lightpink;
+    overflow: hidden;
+    justify-content: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.card{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    margin: 50px auto;
+    background: linear-gradient(130deg, #f52b82 , #c038e9);
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+h2{
+    color: white;
+    font-size: 34px;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-10px);} 100%{transform: translateY(0);}
+}
+.emojis{
+    font-size: 50px;
+    animation: rotate 2s infinite;
+}
+@keyframes rotate {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+#message-hide{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    display: none;
+}
